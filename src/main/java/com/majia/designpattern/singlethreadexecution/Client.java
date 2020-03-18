@@ -1,4 +1,4 @@
-package com.majia.designpattern.singlethreadexception;
+package com.majia.designpattern.singlethreadexecution;
 
 public class Client {
     public static void main(String[] args) {
