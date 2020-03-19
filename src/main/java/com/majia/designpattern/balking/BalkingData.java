@@ -25,6 +25,7 @@ public class BalkingData {
 
     public synchronized void save() throws IOException {
         if (!changed) {
+            System.out.println(Thread.currentThread().getName() + " balking.");
             return;
         }
         doSave();
