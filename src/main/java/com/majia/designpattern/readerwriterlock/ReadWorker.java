@@ -15,7 +15,7 @@ public class ReadWorker extends Thread {
         try {
             while (true) {
                 char[] readBuf = data.read();
-                System.out.println(Thread.currentThread().getName() + " reads " + String.valueOf(readBuf));
+                System.out.println(Thread.currentThread().getName() + " reads  " + String.valueOf(readBuf));
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
